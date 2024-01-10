@@ -126,13 +126,17 @@ h4 {
   background-color: rgb(26, 26, 66);
 }
 .movie_add img {
-  width: 200px;
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  /* margin-right: auto; */
+  width: 92%;
 }
 .logo_broder {
   border-right: 2px solid rgb(26, 25, 25);
   border-left: 2px solid rgb(23, 23, 23);
+}
+.logo_broder img {
+  width: 100%;
 }
 table,
 th,
@@ -440,7 +444,8 @@ menu {
 .computer-data-two a:hover,
 .category_thum p:hover,
 .software-area-three p:hover,
-.footer-logo-area2 ul li a:hover {
+.footer-logo-area2 ul li a:hover,
+.category-area-blog a:hover {
   color: #ea2127;
   cursor: pointer;
 }
@@ -448,9 +453,13 @@ menu {
 
 .tech-talk {
   background-color: black;
-  padding: 60px 0px;
-}
 
+  margin-bottom: -50px;
+}
+.b_botom {
+  border-bottom: 1px dashed #cf1717;
+  padding: 80px 0px;
+}
 .title-data2 h6 {
   font-size: 30px;
   color: aliceblue;
@@ -629,6 +638,7 @@ menu {
 .like-brand {
   padding: 30px 0px;
   background-color: rgb(30, 29, 29);
+  border-radius: 15px;
 }
 .like-brad-data {
   background-color: rgb(255, 255, 255);
@@ -649,6 +659,8 @@ menu {
   font-size: 12px;
   text-decoration: none;
   transition: all 300ms;
+  text-align: center;
+  display: block;
 }
 
 .border_top {
@@ -967,6 +979,7 @@ footer {
   text-decoration: none;
   display: inline-block;
   margin-top: 10px;
+  transition: all 300ms;
 }
 .blog-border-bottom {
   border-bottom: 2px solid rgb(45, 45, 45);
@@ -1045,4 +1058,11 @@ textarea:focus {
 #comment-section button:hover {
   transition: 0.5s;
   background-color: rgb(199, 32, 10);
+}
+
+/* .category page  */
+
+.new-area-two-left-side h5 {
+  padding: 15px 0px;
+  font-weight: 900;
 }
