@@ -1066,3 +1066,38 @@ textarea:focus {
   padding: 15px 0px;
   font-weight: 900;
 }
+
+.line1 {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  position: relative;
+  top: -140px;
+  z-index: -1;
+}
+.line2 {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  position: relative;
+  top: -160px;
+  z-index: -1;
+}
+.border-text1 {
+  position: relative;
+  font-size: 135px;
+  font-weight: 900;
+  color: rgba(81, 81, 81, 0.133);
+  z-index: 3;
+  top: 41px;
+  display: inline-block;
+  background-color: #ffffff;
+}
+.border-text2 {
+  position: relative;
+  font-size: 85px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.787);
+  z-index: 10;
+  top: -90px;
+}
